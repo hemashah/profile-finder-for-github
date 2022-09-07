@@ -1,0 +1,43 @@
+.name-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-profile{
+    min-width: 500px;
+    max-width: 650px;
+}
+p{ 
+    margin-bottom: 0 !important ;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+}
+
+.details{
+    background-color: rgb(227, 227, 227);
+    padding: 10px
+}
+
+.details .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.count{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
